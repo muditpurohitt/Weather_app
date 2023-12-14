@@ -3,7 +3,7 @@ const locationField = document.querySelector(".locationTime p");
 const dateTime = document.querySelector(".locationTime span");
 const emoticon = document.querySelector(".condition img");
 const weather = document.querySelector(".condition span");
-const searchField = document.querySelector(".search_field");
+const searchField = document.querySelector(".searchField");
 const form = document.querySelector("form");
 
 let target = 'Rajsamand';
