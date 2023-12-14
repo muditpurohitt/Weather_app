@@ -8,7 +8,7 @@
   .container {
     width: 100%;
     height: 100vh;
-    background-color:#01161E;
+    background-color:#494D5F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,16 +18,13 @@
   .weather {
     display: flex;
     align-items: center;
-    color: white;
+    color: #a0d2eb;
   }
   
   .weather > div {
-    margin: 0.625rem;
+    margin: 0.9rem;
   }
-  
-  .weather1 {
-    font-size: 4rem;
-  }
+
   
   .weather p {
     font-size: 2rem;
@@ -42,7 +39,7 @@
     position: absolute;
     bottom: 0%;
     width: 100%;
-    background-color: rgba(180, 177, 177, 0.202);
+    background-color: #dbdfe7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,22 +53,22 @@
   }
   
   .searchField {
-    font-size: 1.1rem;
+    font-size: 1rem;
     outline: none;
-    color: white;
+    color: #494D5F;
     background-color: transparent;
-    padding: 1rem 0;
+    padding: 1rem ;
     border: none;
-    border-bottom: 2px solid white;
-    width: 98%;
+    border-bottom: 2px solid #494D5F;
+    width: 70%;
   }
   
   nav form button {
-    background-color:#4ECDC4;
-    font-size: 1.1rem;
-    color: white;
+    background-color:#494D5F;
+    font-size: 1 rem;
+    color: #eff1f8;
     outline: none;
     border: none;
     cursor: pointer;
-  
+    padding: 0.7rem ;
   } 

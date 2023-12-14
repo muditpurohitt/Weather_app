@@ -37,7 +37,7 @@ async function fetchData(target){
 }
 
 function updateDOM(temp, location, time, condition, emoji){
-    tempField.innerHTML = temp;
+    tempField.innerHTML = `${temp} C`;
     locationField.innerHTML = location;
     emoticon.src = emoji;
     weather.innerHTML = condition;
